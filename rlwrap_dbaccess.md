@@ -7,7 +7,8 @@
 > yum install readline-devel 
 
 ### 源码安装 rlwrap
-> tar zxvf rlwrap-*.tar.gz  
+> git clone https://github.com/hanslub42/rlwrap.git  
+> cd rlwrap  
 > ./configure  
 > make  
 > make install
